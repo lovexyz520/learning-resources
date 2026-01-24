@@ -1,0 +1,50 @@
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*~
+.cache/
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+ENV/
+
+# Documentation build
+docs/_build/
+site/
+
+# Notes (personal, don't commit)
+NOTES.md
+TODO-personal.md
+*.draft.md
