@@ -58,14 +58,17 @@ learning-resources/
 
 📂 **資料夾：** [python/](python/)
 
-**狀態：** 🔜 規劃中
+| 文件 | 說明 | 狀態 |
+|------|------|------|
+| [uv-guide.md](python/uv-guide.md) | uv 套件管理器完整使用指南 | ✅ 完成 |
+| python-basics.md | Python 基礎語法 | 🔜 規劃中 |
+| oop.md | 物件導向程式設計 | 🔜 規劃中 |
 
-**預計內容：**
-- Python 基礎語法
-- 物件導向程式設計
-- 常用標準庫
+**涵蓋主題：**
+- uv 套件管理器安裝與使用
 - 虛擬環境管理
-- 測試與除錯
+- 依賴套件管理
+- 團隊協作工作流程
 
 ---
 
@@ -110,6 +113,15 @@ learning-resources/
 | pyproject.toml 怎麼寫？ | [Python 專案指南 → pyproject.toml](project-structure/python-complete-guide.md#1-pyprojecttoml必要) |
 | .gitignore 範本？ | [Python 專案指南 → .gitignore](project-structure/python-complete-guide.md#2-gitignore必要) |
 
+### Python 環境管理
+
+| 問題 | 查看文件 |
+|------|----------|
+| 如何安裝 uv？ | [uv 指南 → 安裝](python/uv-guide.md#安裝-uv) |
+| 如何管理虛擬環境？ | [uv 指南 → 基礎用法](python/uv-guide.md#基礎用法) |
+| 如何新增/移除套件？ | [uv 指南 → 套件管理](python/uv-guide.md#套件管理) |
+| uv 常用命令有哪些？ | [uv 指南 → 速查表](python/uv-guide.md#常用命令速查表) |
+
 ---
 
 ## 📊 統計資訊
@@ -118,8 +130,8 @@ learning-resources/
 |------|--------|--------|------|
 | Git & GitHub | 1 | 1,000+ | ✅ 完成 |
 | 專案結構 | 1 | 800+ | ✅ 完成 |
-| Python | 0 | - | 🔜 規劃中 |
-| **總計** | **2** | **1,800+** | 持續更新 |
+| Python | 1 | 300+ | ✅ 部分完成 |
+| **總計** | **3** | **2,100+** | 持續更新 |
 
 ---
 
