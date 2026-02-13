@@ -48,3 +48,6 @@ site/
 NOTES.md
 TODO-personal.md
 *.draft.md
+
+# AI tooling local settings
+**/.claude/
