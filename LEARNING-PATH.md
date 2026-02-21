@@ -5,6 +5,7 @@
 - `git-github/`：Git 與 GitHub CLI，版本控制與協作流程。
 - `project-structure/`：Python 專案工程化結構與配置。
 - `python/`：Python 環境管理（目前主軸是 `uv`）。
+- `npm/`：Node.js 專案依賴管理、scripts 與團隊協作。
 - `docker/`：Docker 入門到進階、Compose、CI/CD。
 - `powershell/`：PowerShell 操作、自動化、檔案管理實戰。
 - `google-cloud/`：Cloud Run 部署 Python Streamlit。
@@ -20,8 +21,9 @@
 1. `git-github/complete-guide.md`
 2. `python/uv-guide.md`
 3. `project-structure/python-complete-guide.md`
-4. `docker/complete-guide.md`（先讀前半）
-5. `powershell/complete-guide.md`（先讀基本命令與檔案操作）
+4. `npm/complete-guide.md`
+5. `docker/complete-guide.md`（先讀前半）
+6. `powershell/complete-guide.md`（先讀基本命令與檔案操作）
 
 適合你如果：
 - 剛開始做專案，想先把開發流程跑順。
@@ -32,8 +34,9 @@
 
 1. `docker/complete-guide.md`（完整）
 2. `google-cloud/complete-guide.md`
-3. `powershell/complete-guide.md`（檔案管理與排程）
-4. `tailscale/complete-guide.md`
+3. `npm/complete-guide.md`
+4. `powershell/complete-guide.md`（檔案管理與排程）
+5. `tailscale/complete-guide.md`
 
 適合你如果：
 - 已會寫程式，想把服務穩定部署與管理。
@@ -56,16 +59,16 @@
 
 1. `git-github/complete-guide.md`
 2. `python/uv-guide.md`
-3. `docker/complete-guide.md`
-4. `google-cloud/complete-guide.md`
-5. `mcp/complete-guide.md`
+3. `npm/complete-guide.md`
+4. `docker/complete-guide.md`
+5. `google-cloud/complete-guide.md`
+6. `mcp/complete-guide.md`
 
 ---
 
 ## 4) 推薦節奏（每週）
 
-- 第 1 週：Git + uv + 專案結構
+- 第 1 週：Git + uv + 專案結構 + npm
 - 第 2 週：Docker + PowerShell
 - 第 3 週：Cloud Run + Tailscale
 - 第 4 週：MCP + 整體回顧與實作
-

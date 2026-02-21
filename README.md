@@ -1,6 +1,6 @@
-﻿# 程式開發學習資源
+# 程式開發學習資源
 
-這個 repository 收錄實作導向的教學文件，主題包含 Git/GitHub、專案結構、Python、Docker、PowerShell、Google Cloud、MCP 與 Tailscale。
+這個 repository 收錄實作導向的教學文件，主題包含 Git/GitHub、專案結構、Python、npm、Docker、PowerShell、Google Cloud、MCP 與 Tailscale。
 
 ## 專案結構
 
@@ -10,6 +10,7 @@ learning-resources/
 ├── git-github/           # Git 與 GitHub 教學
 ├── project-structure/    # 專案結構與工程化實務
 ├── python/               # Python 與 uv 環境管理
+├── npm/                  # npm 套件管理與 Node.js 專案實務
 ├── docker/               # Docker 入門到進階實戰
 ├── powershell/           # PowerShell 操作與自動化教學
 ├── google-cloud/         # Google Cloud 實作與部署教學
@@ -56,7 +57,17 @@ learning-resources/
 | `python/python-basics.md` | Python 基礎語法 | 規劃中 |
 | `python/oop.md` | 物件導向基礎 | 規劃中 |
 
-### 4. Docker
+### 4. npm
+
+- 目錄：[`npm/`](npm/)
+
+| 檔案 | 說明 | 狀態 |
+|------|------|------|
+| [`npm/complete-guide.md`](npm/complete-guide.md) | npm 從新專案到團隊協作完整教學 | 已完成 |
+| [`npm/README.md`](npm/README.md) | npm 主題索引與閱讀建議 | 已完成 |
+| [`npm/package-json-reference.md`](npm/package-json-reference.md) | `package.json` 欄位速查與模板 | 已完成 |
+
+### 5. Docker
 
 - 目錄：[`docker/`](docker/)
 
@@ -65,7 +76,7 @@ learning-resources/
 | [`docker/complete-guide.md`](docker/complete-guide.md) | Docker 從入門到進階實戰（含 Compose、CI/CD） | 已完成 |
 | [`docker/README.md`](docker/README.md) | Docker 主題索引與閱讀建議 | 已完成 |
 
-### 5. PowerShell
+### 6. PowerShell
 
 - 目錄：[`powershell/`](powershell/)
 
@@ -74,7 +85,7 @@ learning-resources/
 | [`powershell/complete-guide.md`](powershell/complete-guide.md) | PowerShell 完整操作與檔案管理實戰（學習與教學版） | 已完成 |
 | [`powershell/README.md`](powershell/README.md) | PowerShell 主題索引與閱讀建議 | 已完成 |
 
-### 6. Google Cloud
+### 7. Google Cloud
 
 - 目錄：[`google-cloud/`](google-cloud/)
 
@@ -83,7 +94,7 @@ learning-resources/
 | [`google-cloud/complete-guide.md`](google-cloud/complete-guide.md) | Google Cloud Run 部署 Python Streamlit 教學指引 | 已完成 |
 | [`google-cloud/README.md`](google-cloud/README.md) | Google Cloud 主題索引與閱讀建議 | 已完成 |
 
-### 7. MCP
+### 8. MCP
 
 - 目錄：[`mcp/`](mcp/)
 
@@ -92,7 +103,7 @@ learning-resources/
 | [`mcp/complete-guide.md`](mcp/complete-guide.md) | Codex 安裝 Notion MCP 教學（含 MCP 基本介紹） | 已完成 |
 | [`mcp/README.md`](mcp/README.md) | MCP 主題索引與閱讀建議 | 已完成 |
 
-### 8. Tailscale
+### 9. Tailscale
 
 - 目錄：[`tailscale/`](tailscale/)
 
@@ -116,6 +127,12 @@ learning-resources/
 1. 讀 [`project-structure/python-complete-guide.md`](project-structure/python-complete-guide.md)
 2. 跟著建立標準專案骨架
 3. 對照你的現有專案逐步重構
+
+### 想快速掌握 Node.js/npm 專案管理
+
+1. 讀 [`npm/complete-guide.md`](npm/complete-guide.md) 第 1 到 6 章
+2. 建立一個專案並完成 `dependencies/devDependencies/scripts`
+3. 加上 `.nvmrc` 與 `engines`，再用 `npm ci` 驗證可重現性
 
 ### 想快速上手 Docker 部署
 
@@ -156,6 +173,7 @@ learning-resources/
 | 我該怎麼建立 Git 基本工作流？ | [`git-github/complete-guide.md`](git-github/complete-guide.md) |
 | Python 專案應該有哪些必要檔案？ | [`project-structure/python-complete-guide.md`](project-structure/python-complete-guide.md) |
 | 如何用 uv 管理 Python 環境？ | [`python/uv-guide.md`](python/uv-guide.md) |
+| 如何用 npm 正確管理依賴與版本？ | [`npm/complete-guide.md`](npm/complete-guide.md) |
 | 如何建立 Dockerfile 並啟動容器？ | [`docker/complete-guide.md`](docker/complete-guide.md) |
 | 多服務要怎麼用 Compose 管理？ | [`docker/complete-guide.md`](docker/complete-guide.md) |
 | Docker 上線前該注意哪些安全事項？ | [`docker/complete-guide.md`](docker/complete-guide.md) |
@@ -176,13 +194,15 @@ learning-resources/
 
 1. Git 基礎與提交流程
 2. Python 專案基礎結構
-3. Docker 核心概念與容器操作
+3. npm 依賴與腳本管理
+4. Docker 核心概念與容器操作
 
 ### 進階者（3-4 週）
 
 1. 分支策略、PR 協作與版本管理
 2. Python 專案工程化與開發工具整合
-3. Docker Compose、多服務與排錯流程
+3. npm 協作流程與版本管理
+4. Docker Compose、多服務與排錯流程
 
 ### 實戰者（5 週以上）
 
@@ -199,12 +219,13 @@ learning-resources/
 | Git & GitHub | 1 | 已上線 |
 | 專案結構 | 1 | 已上線 |
 | Python | 1 | 已上線 |
+| npm | 3 | 已上線 |
 | Docker | 2 | 已上線 |
 | PowerShell | 2 | 已上線 |
 | Google Cloud | 2 | 已上線 |
 | MCP | 2 | 已上線 |
 | Tailscale | 2 | 已上線 |
-| **總計** | **13** | **持續擴充** |
+| **總計** | **16** | **持續擴充** |
 
 ---
 
