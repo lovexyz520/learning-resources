@@ -35,9 +35,10 @@
 
 1. `docker/complete-guide.md`（完整）
 2. `google-cloud/complete-guide.md`
-3. `npm/complete-guide.md`
-4. `powershell/complete-guide.md`（檔案管理與排程）
-5. `tailscale/complete-guide.md`
+3. `railway/complete-guide.md`
+4. `npm/complete-guide.md`
+5. `powershell/complete-guide.md`（檔案管理與排程）
+6. `tailscale/complete-guide.md`
 
 適合你如果：
 - 已會寫程式，想把服務穩定部署與管理。
@@ -64,7 +65,8 @@
 3. `npm/complete-guide.md`
 4. `docker/complete-guide.md`
 5. `google-cloud/complete-guide.md`
-6. `mcp/complete-guide.md`
+6. `railway/complete-guide.md`
+7. `mcp/complete-guide.md`
 
 ---
 
@@ -72,5 +74,5 @@
 
 - 第 1 週：Git + uv + 專案結構 + npm
 - 第 2 週：Docker + PowerShell
-- 第 3 週：Cloud Run + Tailscale
+- 第 3 週：Cloud Run + Railway + Tailscale
 - 第 4 週：MCP + 整體回顧與實作

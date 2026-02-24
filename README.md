@@ -222,12 +222,14 @@ learning-resources/
 2. Python 專案工程化與開發工具整合
 3. npm 協作流程與版本管理
 4. Docker Compose、多服務與排錯流程
+5. Railway 部署與 Webhook 設定
 
 ### 實戰者（5 週以上）
 
 1. Dockerfile 最佳化與映像安全
 2. CI/CD 自動建置與發佈流程
 3. Docker 到 Kubernetes 的銜接規劃
+4. Railway 費用管控與多服務管理
 
 ---
 
