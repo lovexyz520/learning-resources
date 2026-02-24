@@ -11,6 +11,7 @@
 - `google-cloud/`：Cloud Run 部署 Python Streamlit。
 - `mcp/`：MCP 基本介紹 + Codex 接 Notion MCP。
 - `tailscale/`：零信任私網、節點連線、ACL、Exit Node、Subnet Router。
+- `railway/`：Python 服務 Railway 雲端部署、Webhook 設定、環境變數管理。
 
 ---
 
@@ -49,6 +50,7 @@
 2. `tailscale/complete-guide.md`（ACL、Exit Node、Subnet Router）
 3. `google-cloud/complete-guide.md`（更新、回滾、維運）
 4. `docker/complete-guide.md`（安全與最佳化章節）
+5. `railway/complete-guide.md`（Webhook 部署、費用管控）
 
 適合你如果：
 - 要做團隊協作、跨工具整合、權限治理。

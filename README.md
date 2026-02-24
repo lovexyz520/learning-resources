@@ -1,6 +1,6 @@
 # 程式開發學習資源
 
-這個 repository 收錄實作導向的教學文件，主題包含 Git/GitHub、專案結構、Python、npm、Docker、PowerShell、Google Cloud、MCP 與 Tailscale。
+這個 repository 收錄實作導向的教學文件，主題包含 Git/GitHub、專案結構、Python、npm、Docker、PowerShell、Google Cloud、MCP、Tailscale 與 Railway。
 
 ## 專案結構
 
@@ -16,6 +16,7 @@ learning-resources/
 ├── google-cloud/         # Google Cloud 實作與部署教學
 ├── mcp/                  # MCP 與工具整合教學
 ├── tailscale/            # Tailscale 零信任網路教學
+├── railway/              # Railway 雲端部署教學
 └── README.md
 ```
 
@@ -112,6 +113,15 @@ learning-resources/
 | [`tailscale/complete-guide.md`](tailscale/complete-guide.md) | Tailscale 使用教學（入門到實務） | 已完成 |
 | [`tailscale/README.md`](tailscale/README.md) | Tailscale 主題索引與閱讀建議 | 已完成 |
 
+### 10. Railway
+
+- 目錄：[`railway/`](railway/)
+
+| 檔案 | 說明 | 狀態 |
+|------|------|------|
+| [`railway/complete-guide.md`](railway/complete-guide.md) | Railway 部署 Python 服務完整教學 | 已完成 |
+| [`railway/README.md`](railway/README.md) | Railway 主題索引與閱讀建議 | 已完成 |
+
 ---
 
 ## 快速開始
@@ -164,6 +174,12 @@ learning-resources/
 2. 先完成節點加入與連線驗證
 3. 再做 Exit Node、Subnet Router 與 ACL 控管
 
+### 想把 Python Bot 部署到 Railway
+
+1. 讀 [`railway/complete-guide.md`](railway/complete-guide.md) 第 1 到 6 章
+2. 完成專案建立、環境變數設定與 Public URL 生成
+3. 再讀第 7 章（Webhook 程式碼設定）與第 11 章（本機開發策略）
+
 ---
 
 ## 常見問題導覽
@@ -181,6 +197,9 @@ learning-resources/
 | PowerShell 如何做排程任務？ | [`powershell/complete-guide.md`](powershell/complete-guide.md) |
 | 如何把 Streamlit 部署到 Cloud Run？ | [`google-cloud/complete-guide.md`](google-cloud/complete-guide.md) |
 | Cloud Run 服務如何更新與回滾？ | [`google-cloud/complete-guide.md`](google-cloud/complete-guide.md) |
+| 如何把 Python Bot 部署到 Railway？ | [`railway/complete-guide.md`](railway/complete-guide.md) |
+| Railway Webhook 與 Polling 怎麼切換？ | [`railway/complete-guide.md`](railway/complete-guide.md) |
+| Railway 本機開發與線上並存怎麼做？ | [`railway/complete-guide.md`](railway/complete-guide.md) |
 | MCP 是什麼、怎麼接到 Codex？ | [`mcp/complete-guide.md`](mcp/complete-guide.md) |
 | Notion MCP 要怎麼安裝與驗證？ | [`mcp/complete-guide.md`](mcp/complete-guide.md) |
 | Tailscale 怎麼做多裝置安全連線？ | [`tailscale/complete-guide.md`](tailscale/complete-guide.md) |
@@ -225,7 +244,8 @@ learning-resources/
 | Google Cloud | 2 | 已上線 |
 | MCP | 2 | 已上線 |
 | Tailscale | 2 | 已上線 |
-| **總計** | **16** | **持續擴充** |
+| Railway | 2 | 已上線 |
+| **總計** | **18** | **持續擴充** |
 
 ---
 
