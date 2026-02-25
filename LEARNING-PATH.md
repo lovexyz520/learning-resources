@@ -12,6 +12,7 @@
 - `mcp/`：MCP 基本介紹 + Codex 接 Notion MCP。
 - `tailscale/`：零信任私網、節點連線、ACL、Exit Node、Subnet Router。
 - `railway/`：Python 服務 Railway 雲端部署、Webhook 設定、環境變數管理。
+- `firebase/`：Firebase Hosting 前端/PWA 部署、環境變數、API Key 安全設定。
 
 ---
 
@@ -36,6 +37,7 @@
 1. `docker/complete-guide.md`（完整）
 2. `google-cloud/complete-guide.md`
 3. `railway/complete-guide.md`
+4. `firebase/complete-guide.md`
 4. `npm/complete-guide.md`
 5. `powershell/complete-guide.md`（檔案管理與排程）
 6. `tailscale/complete-guide.md`
@@ -66,7 +68,8 @@
 4. `docker/complete-guide.md`
 5. `google-cloud/complete-guide.md`
 6. `railway/complete-guide.md`
-7. `mcp/complete-guide.md`
+7. `firebase/complete-guide.md`
+8. `mcp/complete-guide.md`
 
 ---
 

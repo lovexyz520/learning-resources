@@ -17,6 +17,7 @@ learning-resources/
 ├── mcp/                  # MCP 與工具整合教學
 ├── tailscale/            # Tailscale 零信任網路教學
 ├── railway/              # Railway 雲端部署教學
+├── firebase/             # Firebase Hosting 部署教學
 └── README.md
 ```
 
@@ -122,6 +123,15 @@ learning-resources/
 | [`railway/complete-guide.md`](railway/complete-guide.md) | Railway 部署 Python 服務完整教學 | 已完成 |
 | [`railway/README.md`](railway/README.md) | Railway 主題索引與閱讀建議 | 已完成 |
 
+### 11. Firebase Hosting
+
+- 目錄：[`firebase/`](firebase/)
+
+| 檔案 | 說明 | 狀態 |
+|------|------|------|
+| [`firebase/complete-guide.md`](firebase/complete-guide.md) | Firebase Hosting 部署前端專案完整教學 | 已完成 |
+| [`firebase/README.md`](firebase/README.md) | Firebase Hosting 主題索引與閱讀建議 | 已完成 |
+
 ---
 
 ## 快速開始
@@ -180,6 +190,12 @@ learning-resources/
 2. 完成專案建立、環境變數設定與 Public URL 生成
 3. 再讀第 7 章（Webhook 程式碼設定）與第 11 章（本機開發策略）
 
+### 想把前端 React/PWA 部署到 Firebase Hosting
+
+1. 讀 [`firebase/complete-guide.md`](firebase/complete-guide.md) 第 1 到 5 章（建立專案、CLI、初始化設定）
+2. 再讀第 6 到 8 章（firebase.json 設定、環境變數、Build + Deploy）
+3. 完成部署後讀第 9 章（API Key 安全設定）
+
 ---
 
 ## 常見問題導覽
@@ -200,6 +216,9 @@ learning-resources/
 | 如何把 Python Bot 部署到 Railway？ | [`railway/complete-guide.md`](railway/complete-guide.md) |
 | Railway Webhook 與 Polling 怎麼切換？ | [`railway/complete-guide.md`](railway/complete-guide.md) |
 | Railway 本機開發與線上並存怎麼做？ | [`railway/complete-guide.md`](railway/complete-guide.md) |
+| 如何把 React/PWA 部署到 Firebase Hosting？ | [`firebase/complete-guide.md`](firebase/complete-guide.md) |
+| Firebase API Key 如何限制避免盜用？ | [`firebase/complete-guide.md`](firebase/complete-guide.md) |
+| Firebase SPA 重新整理 404 怎麼解？ | [`firebase/complete-guide.md`](firebase/complete-guide.md) |
 | MCP 是什麼、怎麼接到 Codex？ | [`mcp/complete-guide.md`](mcp/complete-guide.md) |
 | Notion MCP 要怎麼安裝與驗證？ | [`mcp/complete-guide.md`](mcp/complete-guide.md) |
 | Tailscale 怎麼做多裝置安全連線？ | [`tailscale/complete-guide.md`](tailscale/complete-guide.md) |
@@ -247,7 +266,8 @@ learning-resources/
 | MCP | 2 | 已上線 |
 | Tailscale | 2 | 已上線 |
 | Railway | 2 | 已上線 |
-| **總計** | **18** | **持續擴充** |
+| Firebase Hosting | 2 | 已上線 |
+| **總計** | **20** | **持續擴充** |
 
 ---
 
